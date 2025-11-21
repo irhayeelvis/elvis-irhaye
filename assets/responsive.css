@@ -93,8 +93,13 @@
         margin: auto;
     }
 
+    .merge {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .about {
-        width: 70%;
+        width: 40%;
         opacity: 0.8;
         transition: all .3s ease;
     }
@@ -103,12 +108,8 @@
         opacity: 1;
     }
 
-    .about p:nth-child(5) {
-        text-align: inherit;
-    }
-
     .skills {
-        width: 70%;
+        width: 40%;
         opacity: 0.8;
         transition: all .3s ease;
     }
@@ -137,6 +138,8 @@
     .icons {
         width: 50%;
         margin-bottom: 100px;
+        background: #b4b4b4;
+        box-shadow: none;
     }
 
     .icons:hover {
