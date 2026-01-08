@@ -194,6 +194,7 @@ a:hover {
 
 .pfp {
     width: 70%;
+    max-width: 452px;
     height: auto;
     border-radius: 8px;
     margin: 15px;
